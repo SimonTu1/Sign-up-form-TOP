@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Formt</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section id="logo-container">
+        <div class="img-logo">
+          <img src="./image/odin-lined (1).png" />
+          <h2>ODIN</h2>
+          <!-- <span>Author</span> -->
+        </div>
+      </section>
+      <section id="right-side-section">
+        <div class="top-text">
+          <p>
+            Welcome to the Odin Project! We are excited to have you join our
+            community of aspiring web developers and support you on your journey
+            to learn programming and launch a successful career in tech. We look
+            forward to helping you build real-world projects and gain the skills
+            you need to succeed.
+          </p>
+          <span class="bottom-text">You <em>know</em> you want to</span>
+        </div>
+        <section class="form-section">
+          <h2>Let's do this!</h2>
+          <form id="form-1">
+            <div class="item">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Joe"
+                required
+              />
+            </div>
+            <div class="item">
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="Doe"
+                required
+              />
+            </div>
+            <div class="item">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="JoeDoe@gmail.com"
+                required
+              />
+            </div>
+            <div class="item">
+              <label for="phone">Phone Number</label> <input type"tel"
+              id="phone" name="phone" placeholder="444-444-4444" required>
+            </div>
+            <div class="item">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="item">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+              />
+            </div>
+          </form>
+        </section>
+        <section class="bottom-side">
+          <button type="submit" form="form-1">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
